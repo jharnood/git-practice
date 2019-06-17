@@ -4,6 +4,22 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string> Last login: Wed Jun 12 18:55:31 on ttys000
+Apples-MacBook-Pro-9:~ apple$ cd Desktop
+Apples-MacBook-Pro-9:Desktop apple$ ls
+MyPlayground.playground
+Apples-MacBook-Pro-9:Desktop apple$ ls
+MyPlayground.playground	git-practice
+Apples-MacBook-Pro-9:Desktop apple$ cd git-practice
+Apples-MacBook-Pro-9:git-practice apple$ ls
+git-practice		git-practice.xcodeproj	git-practiceTests	git-practiceUITests
+Apples-MacBook-Pro-9:git-practice apple$ git init
+Reinitialized existing Git repository in /Users/apple/Desktop/git-practice/.git/
+Apples-MacBook-Pro-9:git-practice apple$ git add .
+Apples-MacBook-Pro-9:git-practice apple$ git commit -m "Initial commit"
+
+</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
